@@ -1,0 +1,82 @@
+body{
+   /* background-color:rgba(138, 98, 74, 50%) ;*/
+    margin: 0;
+   background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20210507/pngtree-vintage-ink-bottle-and-old-paper-with-feather-pen-image_668622.jpg);    
+}
+    header 
+    {
+    color: rgb(133, 77, 40);
+    background-color:rgba(245, 245, 220, 0.534);
+    text-align: center;
+    font-family: cursive;
+    }
+    h1{
+        text-align:left;
+        font-family: cursive;
+    }
+    main{
+    /* background-color:rgba(138, 98, 74, 60%) ; */
+    color:rgb(26, 11, 2) ; 
+    font-size: 35px;
+    padding: 25px;
+    text-align:center;
+    }
+
+    .works{
+background-color: rgba(252, 252, 221, 0.672);
+width: 150px;
+height: 400px;
+/*align-items: center;*/
+border-radius: 50px;
+font-weight: 200;
+margin-left: 20px;
+padding: auto;
+
+border: double rgb(138, 98, 74) 5px;
+    }
+.right{
+    float: right;
+}
+ul{
+    list-style: none;
+}
+    .colist{
+        display: flex;
+
+    }
+    .quotes{
+        font-family: cursive;
+    }
+
+    button{
+        background-color:rgba(39, 27, 19, 0.818) ;
+       /* border-left: white double 5px;*/
+        margin:5px 50px;
+        line-height: 50px;
+        color:white ;
+        font-family: cursive;
+        padding: auto ;
+
+        width: 75px;
+        height: 53px;
+        border-radius: 50px;
+
+    }
+    footer{
+    background-color: rgba(138, 98, 74, 75%);
+    color: beige;
+    margin: 50px 10px;
+    }
+    .columns{
+    display: flex;}
+    .column{
+    margin: 10px;
+    padding: 5px;
+    border-right:beige  solid 2px;
+    }
+        .column2{
+        margin: 10px;
+        padding: 5px;
+        border-left:beige solid 2px;
+        margin: 20px;
+        }
